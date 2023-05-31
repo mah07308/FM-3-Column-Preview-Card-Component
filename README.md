@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-component-x5vHilLTS7](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-component-x5vHilLTS7)
+- Live Site URL: [https://mah07308.github.io/FM-3-Column-Preview-Card-Component/](https://mah07308.github.io/FM-3-Column-Preview-Card-Component/)
 
 ## My process
 
