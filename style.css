@@ -1,0 +1,148 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white: hsla(0, 0%, 100%, 0.75); /*(paragraphs) */
+  --very-light-gray: hsl(0, 0%, 95%); /* (background, headings, buttons) */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  min-height: 100vh;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  max-width: 23.5rem;
+}
+
+.card {
+  padding: 3rem;
+}
+
+img {
+  display: block;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 3rem;
+  color: var(--very-light-gray);
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+p {
+  color: var(--transparent-white);
+  margin-bottom: 1.5rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.sedan {
+  background-color: var(--bright-orange);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.sedan > button {
+  color: hsla(31, 77%, 52%, 0.75);
+}
+
+.sedan > button:hover,
+.sedan > button:active {
+  color: white;
+  background: var(--bright-orange);
+  border: 0.15rem solid white;
+}
+
+.suv {
+  background-color: var(--dark-cyan);
+}
+
+.suv > button {
+  color: hsla(184, 100%, 22%, 0.75);
+}
+
+.suv > button:hover,
+.suv > button:active {
+  color: white;
+  background: var(--dark-cyan);
+  border: 0.15rem solid white;
+}
+
+.luxury {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.luxury > button {
+  color: hsla(179, 100%, 13%, 0.75);
+}
+
+.luxury > button:hover,
+.luxury > button:active {
+  color: white;
+  background: var(--very-dark-cyan);
+  border: 0.15rem solid white;
+}
+
+footer {
+  margin: 1rem;
+  margin-top: 0;
+}
+
+@media (min-width: 64rem) {
+  .container {
+    display: flex;
+    max-width: 60rem;
+  }
+
+  h1 {
+    margin: 1rem 0;
+  }
+
+  p {
+    margin-bottom: 5rem;
+  }
+
+  .card {
+    border: none;
+    max-width: 33.3%;
+  }
+
+  .sedan {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .luxury {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
