@@ -63,10 +63,11 @@ p {
   margin-bottom: 1.5rem;
 }
 
-a button {
+.btn {
+  display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2rem;
-  border: none;
+  border: 0.15rem solid var(--very-light-gray);
   cursor: pointer;
   font-weight: 600;
   font-size: 1rem;
@@ -78,14 +79,13 @@ a button {
   border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.sedan > a button {
+.sedan > .btn {
   color: hsla(31, 77%, 52%, 0.75);
-  border: 0.15rem solid var(--very-light-gray);
 }
 
-.sedan > a button:hover,
-.sedan > a button:active {
-  color: white;
+.sedan > .btn:hover,
+.sedan > .btn:active {
+  color: var(--very-light-gray);
   background: var(--bright-orange);
 }
 
@@ -93,14 +93,14 @@ a button {
   background-color: var(--dark-cyan);
 }
 
-.suv > a button {
+.suv > .btn {
   color: hsla(184, 100%, 22%, 0.75);
   border: 0.15rem solid var(--very-light-gray);
 }
 
-.suv > a button:hover,
-.suv > a button:active {
-  color: white;
+.suv > .btn:hover,
+.suv > .btn:active {
+  color: var(--very-light-gray);
   background: var(--dark-cyan);
 }
 
@@ -109,14 +109,14 @@ a button {
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.luxury > a button {
+.luxury > .btn {
   color: hsla(179, 100%, 13%, 0.75);
   border: 0.15rem solid var(--very-light-gray);
 }
 
-.luxury > a button:hover,
-.luxury > a button:active {
-  color: white;
+.luxury > .btn:hover,
+.luxury > .btn:active {
+  color: var(--very-light-gray);
   background: var(--very-dark-cyan);
 }
 
