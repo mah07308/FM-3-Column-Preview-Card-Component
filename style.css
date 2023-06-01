@@ -76,7 +76,7 @@ p {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.5em 2em;
   border-radius: 2rem;
   border: 0.15rem solid var(--very-light-gray);
   cursor: pointer;
